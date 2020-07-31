@@ -30,3 +30,7 @@
 - [x] Calculator
 
 
+## Week 2
+- [x] APIs : Requests module
+
+
