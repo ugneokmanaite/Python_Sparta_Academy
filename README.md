@@ -1,6 +1,6 @@
-Basic Python @ Sparta Academy :snake:
+# Python @ Sparta Academy :snake:
 
-Topics Covered Week 1 Python:
+## Topics Covered Week 1 Python:
 
 - [x] Variables
 - [x] Lists
@@ -13,7 +13,7 @@ Topics Covered Week 1 Python:
 - [x] Functions
 - [x] Built-in Libraries
 
-Week 1 Exercises:
+## Week 1 Exercises:
 - [x] Rock, paper, scissors
 - [x] Capturing user details
 - [x] Cinema Tickets (control flow)
