@@ -1,6 +1,8 @@
 # What is control flow
-# Conditional statements and loops
-# if, elif, else, for loop, while loop
+    # Conditional statements and loops
+    # if, elif, else, for loop, while loop
+
+# The control flow of a Python program is regulated by conditional statements, loops, and function calls. ... Raising and handling exceptions also affects control flow;
 
 # weather = "sunny"
 # conditional_weather = "rainy" # condition is almost like a boolean value

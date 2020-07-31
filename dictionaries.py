@@ -1,6 +1,6 @@
 # What is a dictionary
-# more dynamic than a list... how? very useful tool within any coding
-# simple concept of KEY VALUE PAIRS
+    # more dynamic than a list... how? very useful tool within any coding
+    # simple concept of KEY VALUE PAIRS
 
 # SYNTAX - we use {} to create a Dictionary
                  # key  :   value
