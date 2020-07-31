@@ -1,46 +1,44 @@
-# how can we use builtin python library
+class Calculator:
+# class created
 
-from random import random
-# import math #import built in modules
-#
-# # to generate a random number- mostly used in lottery
-# # print(random()
-# float_num = 24.5  # float
-#
-# # round the float number
-# # math. shows you all builtin math functions
-# # ceil rounds the number
-#
-# print(math.ceil(float_num))
-#
-# print(math.floor(float_num))
+# basic functions of calculator added
+# self is used for function to all itself
+    def add(self):
+        print(a + b)
+    def sub(self):
+        print(a - b)
+    def multiply(self):
+        print(a * b)
+    def divide(self):
+        print(a / b)
+    def remainder(self):
+        print (a % b)
+# to ask user for inputs
+a = int(input("enter first number"))
+b = int(input("enter second number"))
+# object created
+obj = Calculator()
 
+# choices for user
 
-# create a method that would take 2 arguments
-# calculate cm into inches
+choice = 1
+while choice != 0:
+    print("1. ADD")
+    print("2. SUBTRACT")
+    print("3. MULTIPLY")
+    print("4. DIVIDE")
+    print("5. REMAINDER")
+    choice= int(input("Enter your choice: "))
 
-# num = float(input("Enter the distance in cm "))
-# inch = num/2.54
-# print("In inches this will be ", inch)
-
-# def conversion(cm):
-#     return(cm / 2.54)
-# print (conversion(4))
-
-
-# def multiply_values(number1, number2):
-#     return(number1 * number2)
-# print(multiply_values(5,5))
-
-# def cm_to_inches(cm):
-#     print("cm converted into inches is:")
-#     return (cm/2.54)
-#
-# print(cm_to_inches(9))
-
-def cm_to_inches():
-    select = int(input("Select a number you would like to convert: \n"))
-    print("{} cm converted into inches is:".format(str(select)))
-    return (select / 2.54)
-
-print(cm_to_inches())
+    if choice == 1:
+        print(obj.add())
+    elif choice == 2:
+        print(obj.sub())
+    elif choice == 3:
+        print(obj.multiply())
+    elif choice == 4:
+        print(obj.divide())
+    elif choice == 5:
+        print(obj.divide())
+    else:
+        print("Error")

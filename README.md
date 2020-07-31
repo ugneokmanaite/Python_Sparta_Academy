@@ -1,5 +1,15 @@
 # Python @ Sparta Academy :snake:
 
+## Why Python?
+- Lang developed by Guido van Rassum
+- Fastest growing prog lang
+- 2020 was #1 in terms of demand
+- Supports multiple systems & platforms
+- OOP Driven
+- Helps improve programmers productivity-simplified code for min code and max productivity
+- Extensive Support libraries
+- Most used in machine learning & data analysis
+
 ## Topics Covered Week 1 Python:
 
 - [x] Variables
@@ -18,4 +28,5 @@
 - [x] Capturing user details
 - [x] Cinema Tickets (control flow)
 - [x] Calculator
+
 
